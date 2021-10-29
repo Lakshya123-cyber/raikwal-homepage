@@ -5,33 +5,33 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="BlogSite">
+  <Layout title="RPG Game">
     <Container>
       <Title>
-        BlogSite <Badge>2019</Badge>
+        RPG Game <Badge>2020</Badge>
       </Title>
       <P>
-        A static blog website which was made during my web development introduction.
+        A fun and interactive pixelated game which is one-click and the player have health potions to increase its health too!
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://zi2ccxwke8ppkhvplmlniq-on.drv.tw/blogsite/index1.html">
-            BlogSite <ExternalLinkIcon mx="2px" />
+          <Link href="https://titan-gamer.itch.io/rpg-game">
+            Download Game <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Any Web Browser</span>
+          <span>Windows</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, CSS</span>
+          <span>Python</span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/blog_02.png" alt="Blog" />
-      <WorkImage src="/images/works/blog_01.png" alt="Blog" />
+      <WorkImage src="/images/works/rpg_01.png" alt="RPG" />
+      <WorkImage src="/images/works/rpg_02.gif" alt="RPG" />
     </Container>
   </Layout>
 )
