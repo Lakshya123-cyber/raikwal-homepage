@@ -68,13 +68,10 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Projects
+          About Me
         </Heading>
         <Paragraph>
-          Lakshya Raikwal with extensive knowledge and 3 years of experience
-          till now, working on AI using Python and little bit of web
-          development, is a passionate developer who has keen interest in
-          programming and developing new things.
+          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things. When he isn’t glued to a computer screen, he spends time playing Tabla, talking with his mum and sometimes try to go for workout.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects">
@@ -95,12 +92,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2008</BioYear>
-          Did my kindergarten in Maris Stella Kindergarten, Singapore. After
-          that went back to India for further studies.
+          Did my primary schooling in India.
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Came back to Singapore and started my coding and programming journey!
+          Flew to Singapore for Secondary education but got inspired to do programming and started my tech journey woo!
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
