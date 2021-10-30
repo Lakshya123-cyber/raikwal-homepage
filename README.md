@@ -1,2 +1,2 @@
-# raikwal-homepage
-My personal website v2.0
+# My personal website
+I was jobless enough to make myself another website.
