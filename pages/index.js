@@ -71,7 +71,7 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things. When he isn’t glued to a computer screen, he spends time playing Tabla, talking with his mum and sometimes try to go for workout.
+          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things including AI. When he isn’t glued to a computer screen, he spends time playing Tabla, talking with his mum and sometimes try to go for workout.
           
           He is also an ambitious person who has a positive attitude and is full of determination to achieve whatever he puts his mind to. With extensive knowledge and 3 years of experience, he's been working on AI using Python with intermediate level of web development too!
         </Paragraph>
@@ -102,7 +102,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          An expert in Python / Web Development
+          An amateur in Python / Web Development.
         </BioSection>
       </Section>
 
