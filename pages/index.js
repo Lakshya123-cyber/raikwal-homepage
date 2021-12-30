@@ -46,7 +46,7 @@ const Home = () => (
             Lakshya Raikwal
           </Heading>
           <p>
-            President of Tech Club 2K21-22 | Digital Craftsman ( Developer )
+            President of Tech Club 2K21-22 | Digital Craftzman
           </p>
         </Box>
         <Box
