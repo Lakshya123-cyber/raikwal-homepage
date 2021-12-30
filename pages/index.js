@@ -105,7 +105,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          An amateur in Python / Web Development.
+          An amateur in Python / Web Development and the current president of Tech Club 2K21-22.
         </BioSection>
       </Section>
 
