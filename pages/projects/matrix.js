@@ -28,7 +28,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/matrix.png" alt="Netflix" />
+      <WorkImage src="/images/works/matrix.png" alt="Matrix" />
     </Container>
   </Layout>
 )
