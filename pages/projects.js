@@ -16,11 +16,23 @@ import thumbRpg from '../public/images/works/rpg.png'
 import thumbShooter from '../public/images/works/shoot.png'
 import thumbSpeech from '../public/images/works/speech.png'
 
+import thumbMatrix from '../public/images/works/matrix.png'
+import thumbBird from '../public/images/works/bird.jpg'
+import thumbDino from '../public/images/works/dino.png'
+import thumbCar from '../public/images/works/car.png'
+import thumbPong from '../public/images/works/pong.png'
+import thumbBasket from '../public/images/works/ball.png'
+import thumbLibrary from '../public/images/works/books.png'
+import thumbParking from '../public/images/works/park.png'
+import thumbSnake from '../public/images/works/snek.png'
+import thumbWhiteboard from '../public/images/works/board.png'
+import thumbWPM from '../public/images/works/wpm.png'
+
 const Projects = () => (
   <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Projects
+        Casual Projects
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -42,6 +54,37 @@ const Projects = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="piano" thumbnail={thumbPiano} title="Piano Tiles">
+            An AI click bot which clicks on the black tiles automatically.
+            Basically a way to hack the game!
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem
+            id="library"
+            title="Books Management System"
+            thumbnail={thumbLibrary}
+          >
+            A graph made just for fun. Can be used in many work sectors.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="snake" title="Snake Game" thumbnail={thumbSnake}>
+            An awesome RPG Game made purely from Pygame(Python).
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="board"
+            title="Collaborative WhiteBoard"
+            thumbnail={thumbWhiteboard}
+          >
+            A pixelated and fun shooting game made using pygame(python).
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="wpm" thumbnail={thumbWPM} title="WPM Tester">
             An AI click bot which clicks on the black tiles automatically.
             Basically a way to hack the game!
           </WorkGridItem>
@@ -89,13 +132,80 @@ const Projects = () => (
             artwork.
           </WorkGridItem>
         </Section>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="basket"
+            thumbnail={thumbBasket}
+            title="Shot Predictor"
+          >
+            This AI after 10 frames of the video can easily detect if the ball
+            is going inside the basket or not.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="parking"
+            thumbnail={thumbParking}
+            title="Parking Lots Detector"
+          >
+            This can count the number of parking lots left in any given video.
+            Have to do certain things manually but the result is fully
+            automatic.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem id="pong" thumbnail={thumbPong} title="AI Pong Game">
+            This can count the number of parking lots left in any given video.
+            Have to do certain things manually but the result is fully
+            automatic.
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
 
       <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old Projects
+          Neural Network Projects
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.5}>
+          <WorkGridItem id="bird" thumbnail={thumbBird} title="Neural Bird">
+            This is a flappy bird game which works on the principle of neural
+            networking. This bird can have several generations and whichever
+            generation is perfect, that bird continues its journey between the
+            pipes.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="car"
+            thumbnail={thumbCar}
+            title="Neural Car (LESLA)"
+          >
+            This is a car game which works on the principle of neural
+            networking. This car can have several generations and whichever
+            generation is perfect, that car continues its journey.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.6}>
+          <WorkGridItem id="dino" thumbnail={thumbDino} title="Neural Dino">
+            This is a Dinosaur game which works on the principle of neural
+            networking. This dino can have several generations and whichever
+            generation is perfect, that dino continues its journey.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.4}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Web Development Projects
         </Heading>
       </Section>
 
@@ -131,6 +241,11 @@ const Projects = () => (
           >
             A replica of the Netflix website. The only difference is that you
             cannot watch any movies.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.6}>
+          <WorkGridItem id="matrix" thumbnail={thumbMatrix} title="Matrix Rain">
+            A fun project I made just to revise my JS concepts LOL.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
