@@ -24,7 +24,7 @@ import {
   IoLogoGithub,
   // IoLogoDiscord
 } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
+import thumbYouTube from '../public/images/links/matrix.png'
 import thumbNetflix from '../public/images/links/netflix.png'
 
 const Home = () => (
@@ -45,7 +45,10 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Lakshya Raikwal
           </Heading>
-          <p>Digital Craftzman ( Developer / Designer )</p>
+          <p>
+            President of GIIS Tech Club 2K22-23 | Digital Craftsman ( Developer
+            / Designer )
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -111,7 +114,7 @@ const Home = () => (
           I 🤍
         </Heading>
         <Paragraph>
-          Gaming, Music, 3D Designing, Playing Tabla, Artificial Intelligence
+          Gaming, Music, 3D Designing, Playing Tabla, Artificial Intelligence and Machine Learning
         </Paragraph>
       </Section>
 
@@ -168,7 +171,11 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem href="https://www.youtube.com/watch?v=NCIiiwqMBhI" title="Minecraft Parkour" thumbnail={thumbYouTube}>
+          <GridItem
+            href="https://www.youtube.com/watch?v=EJojZ_Y0WaM"
+            title="ASMR Programming"
+            thumbnail={thumbYouTube}
+          >
             My YouTube channel
           </GridItem>
           <GridItem
