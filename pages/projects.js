@@ -85,7 +85,7 @@ const Projects = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="wpm" thumbnail={thumbWPM} title="WPM Tester">
-            A typing test game made from Pythonn which is very simple and easy to use
+            A typing test game made from Python which is very simple and easy to use
           </WorkGridItem>
         </Section>
       </SimpleGrid>
