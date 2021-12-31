@@ -13,9 +13,9 @@ const Work = () => (
       <P>A fun website I made just to revise my Javascript concepts.</P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="#">
-            Coming Soon! <ExternalLinkIcon mx="2px" />
+          <Meta>Source</Meta>
+          <Link href="https://github.com/Lakshya123-cyber/Matrix-Rain">
+            Matrix Rain <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
