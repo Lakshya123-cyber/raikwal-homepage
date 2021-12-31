@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://zi2ccxwke8ppkhvplmlniq-on.drv.tw/E-COMMERCE/">
+          <Link href="https://github.com/Lakshya123-cyber/BasketBall-Shot-Predictor">
             Shot Predictor <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
