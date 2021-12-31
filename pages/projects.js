@@ -65,12 +65,12 @@ const Projects = () => (
             title="Books Management System"
             thumbnail={thumbLibrary}
           >
-            A graph made just for fun. Can be used in many work sectors.
+            A book management system useful for Library users.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="snake" title="Snake Game" thumbnail={thumbSnake}>
-            An awesome RPG Game made purely from Pygame(Python).
+            A Terminal-based Snake Game made purely from Python (curses).
           </WorkGridItem>
         </Section>
 
@@ -80,13 +80,12 @@ const Projects = () => (
             title="Collaborative WhiteBoard"
             thumbnail={thumbWhiteboard}
           >
-            A pixelated and fun shooting game made using pygame(python).
+            A collaborative whiteboard which is made using html, express.io and socket.js
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="wpm" thumbnail={thumbWPM} title="WPM Tester">
-            An AI click bot which clicks on the black tiles automatically.
-            Basically a way to hack the game!
+            A typing test game made from Pythonn which is very simple and easy to use
           </WorkGridItem>
         </Section>
       </SimpleGrid>
