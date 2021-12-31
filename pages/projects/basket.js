@@ -1,5 +1,5 @@
-import { Container, Badge, List, ListItem } from '@chakra-ui/react'
-
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/projects'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -14,6 +14,12 @@ const Work = () => (
         An AI which can predict if the ball is going inside the basket or not.
       </P>
       <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Source</Meta>
+          <Link href="https://zi2ccxwke8ppkhvplmlniq-on.drv.tw/E-COMMERCE/">
+            Shot Predictor <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS</span>
