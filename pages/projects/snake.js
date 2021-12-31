@@ -18,7 +18,7 @@ const Work = () => (
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/Lakshya123-cyber/ASCII-Snake-Game">
-            Terminal Snake <ExternalLinkIcon mx="2px" />
+            ASCII Snake <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
