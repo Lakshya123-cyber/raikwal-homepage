@@ -30,8 +30,6 @@ const Work = () => (
           <span>Python</span>
         </ListItem>
       </List>
-
-      <WorkImage src="/images/works/parking.gif" alt="Parking" />
       <WorkImage src="/images/works/park2.png" alt="Parking" />
     </Container>
   </Layout>
