@@ -20,7 +20,7 @@ const Work = () => (
           <Link href="https://github.com/Lakshya123-cyber/Parking_Lots_Detector">
             Lots Counter <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem
+        </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS</span>
