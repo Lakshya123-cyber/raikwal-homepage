@@ -21,8 +21,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/blink.png" alt="Bird" />
-      <WorkImage src="/images/works/blink1.png" alt="Bird" />
+      <WorkImage src="/images/works/blink.PNG" alt="Bird" />
+      <WorkImage src="/images/works/blink1.PNG" alt="Bird" />
     </Container>
   </Layout>
 )
