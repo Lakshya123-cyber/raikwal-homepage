@@ -28,6 +28,8 @@ import thumbSnake from '../public/images/works/snek.png'
 import thumbWhiteboard from '../public/images/works/board.png'
 import thumbWPM from '../public/images/works/wpm.png'
 
+import thumbBlink from '../public/images/works/blink.png'
+
 const Projects = () => (
   <Layout title="Projects">
     <Container>
@@ -80,12 +82,14 @@ const Projects = () => (
             title="Collaborative WhiteBoard"
             thumbnail={thumbWhiteboard}
           >
-            A collaborative whiteboard which is made using html, express.io and socket.js
+            A collaborative whiteboard which is made using html, express.io and
+            socket.js
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="wpm" thumbnail={thumbWPM} title="WPM Tester">
-            A typing test game made from Python which is very simple and easy to use
+            A typing test game made from Python which is very simple and easy to
+            use
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -156,9 +160,13 @@ const Projects = () => (
 
         <Section delay={0.3}>
           <WorkGridItem id="pong" thumbnail={thumbPong} title="AI Pong Game">
-            This can count the number of parking lots left in any given video.
-            Have to do certain things manually but the result is fully
-            automatic.
+            This is a simple Pong game made from Python.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem id="blink" thumbnail={thumbBlink} title="Blink Counter">
+            This can count the number of blinks.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
