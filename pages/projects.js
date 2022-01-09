@@ -28,7 +28,7 @@ import thumbSnake from '../public/images/works/snek.png'
 import thumbWhiteboard from '../public/images/works/board.png'
 import thumbWPM from '../public/images/works/wpm.png'
 
-import thumbBlink from '../public/images/works/blink.png'
+import thumbBlink from '../public/images/works/blink.PNG'
 
 const Projects = () => (
   <Layout title="Projects">
