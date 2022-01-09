@@ -133,6 +133,17 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+           <ListItem>
+            <Link href="https://instagram.com/titan1728" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoInstagram} />}
+              >
+                @titan1728
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://twitter.com/lakshya_raikwal" target="_blank">
               <Button
@@ -144,29 +155,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/titan1728" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoInstagram} />}
-              >
-                @titan1728
-              </Button>
-            </Link>
-          </ListItem>
-          {/* UPDATE DISCORD LINK~ */}
-          {/* <ListItem>
-            <Link href="https://discord.com/d🙃#7976" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoDiscord} />}
-              >
-                Discord
-              </Button>
-            </Link>
-          </ListItem> */}
+          
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
