@@ -11,7 +11,7 @@ const Work = () => (
         Aeronautics Website <Badge>2021</Badge>
       </Title>
       <P>
-        A meaningful and interactive aeronautics website made to larn more about it.
+        A meaningful and interactive website made to learn more about aeronautics.
       </P>
       <List ml={4} my={4}>
         <ListItem>
