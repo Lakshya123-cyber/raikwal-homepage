@@ -255,6 +255,15 @@ const Projects = () => (
             A fun project I made just to revise my JS concepts LOL.
           </WorkGridItem>
         </Section>
+        <Section delay={0.6}>
+          <WorkGridItem
+            id="avianic"
+            thumbnail={thumbAero}
+            title="Avianic Aeronautics Website"
+          >
+            A website made for my friend who is interested in learning/teaching aeronautics.
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
