@@ -29,6 +29,7 @@ import thumbWhiteboard from '../public/images/works/board.png'
 import thumbWPM from '../public/images/works/wpm.png'
 
 import thumbBlink from '../public/images/works/blink.PNG'
+import thumbAero from '../public/images/works/aero1.png'
 
 const Projects = () => (
   <Layout title="Projects">
@@ -259,7 +260,7 @@ const Projects = () => (
           <WorkGridItem
             id="avianic"
             thumbnail={thumbAero}
-            title="Avianic Aeronautics Website"
+            title="Aeronautics Website"
           >
             A website made for my friend who is interested in learning/teaching aeronautics.
           </WorkGridItem>
