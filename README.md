@@ -1,9 +1,5 @@
 # My personal website
-This is my very own personal portfolio which I made using Next.js, React.js, a bit of HTML and CSS.
+This is my very own personal portfolio which I made using Next.js (a framework of JS)
+As a high-school student I have very limited time to make a website like this for myself but I have tried my best and completed it.
 
-Making this website was not an easy task as I had to go through all time limits to make this kind of website for myself.
-### I am really grateful that my dad supported me to make this website for myself.
-
-<p>This is the QR Code to my Personal Website</p>
-
-<img src="https://user-images.githubusercontent.com/72344300/148674818-da5e6b3c-69fb-4ba1-97fe-fe06a134bf48.jpg" />
+Most of the credit go to the youtubers from whom I have learned loads and have come up this far that I have a website of my own!
