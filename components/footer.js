@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react'
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Lakshya Raikwal. All Rights Reserved.
+      &copy; {new Date().getFullYear()} LakshyaRaik. All Rights Reserved.
     </Box>
   )
 }
