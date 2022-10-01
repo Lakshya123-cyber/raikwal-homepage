@@ -78,7 +78,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://raikwalakshya.firebaseapp.com"
+            href="https://raikwal-uses.vercel.app"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -113,7 +113,7 @@ const Navbar = props => {
                 <MenuItem
                   as={Link}
                   target="_blank"
-                  href="https://raikwalakshya.firebaseapp.com"
+                  href="https://raikwal-uses.vercel.app"
                 >
                   Others
                 </MenuItem>
