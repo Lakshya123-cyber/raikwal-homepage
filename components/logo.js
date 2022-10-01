@@ -31,7 +31,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Lakshya Raikwal
+            LakshyaRaik
           </Text>
         </LogoBox>
       </a>
