@@ -168,7 +168,7 @@ const Home = () => (
           </GridItem>
           <GridItem
             href="https://raikwal-uses.vercel.app"
-            title="Tech I Use"
+            title="Blog Site"
             thumbnail={thumbTech}
           >
             Tech I Use
