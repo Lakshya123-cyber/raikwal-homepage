@@ -19,13 +19,13 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import {
-  IoLogoTwitter,
+  IoLogoLinkedin,
   IoLogoInstagram,
   IoLogoGithub,
   // IoLogoDiscord
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/matrix.png'
-import thumbNetflix from '../public/images/links/netflix.png'
+import thumbTech from '../public/images/links/tech.png' # add this image
 
 const Home = () => (
   <Layout>
@@ -46,7 +46,7 @@ const Home = () => (
             Lakshya Raikwal
           </Heading>
           <p>
-            President of Tech Club 2K21-22 | Digital Craftzman
+            High-School Student | Digital Craftzman | Full-stack Developer
           </p>
         </Box>
         <Box
@@ -73,9 +73,9 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things including AI. When he isn’t glued to a computer screen, he spends time playing Tabla, talking with his mum and sometimes try to go for workout.
+          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things including AI. When he isn&apos;t glued to a computer screen, he either spends time researching for a new project idea or talk with his girlfriend.
           
-          He is also an ambitious person who has a positive attitude and is full of determination to achieve whatever he puts his mind to. With extensive knowledge and 3 years of experience, he's been working on AI using Python with intermediate level of web development too!
+          He is also an ambitious person who has a positive attitude and is full of determination to achieve whatever he puts his mind to. With extensive knowledge and 4 years of experience, he&apos;s been working on AI using Python with intermediate level of web development and beginner level of blockchain knowledge too!
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects">
@@ -100,11 +100,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Flew to Singapore for Secondary education but got inspired to do programming and started my tech journey woo!
+          Flew to Singapore for Secondary education; got inspired to do programming and started my tech journey!
         </BioSection>
         <BioSection>
           <BioYear>2021 to present</BioYear>
-          An amateur in Python / Web Development and the current president of Tech Club 2K21-22.
+          An amateur in Python / Web Development / Blockchain and an aspiring learner in the field of Technology.
         </BioSection>
       </Section>
 
@@ -113,7 +113,7 @@ const Home = () => (
           I 🤍
         </Heading>
         <Paragraph>
-          Gaming, Music, 3D Designing, Playing Tabla, Artificial Intelligence and Machine Learning
+          Coding new projects, Gaming and Music, but my priority among these is my beloved girlfriend.
         </Paragraph>
       </Section>
 
@@ -145,13 +145,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/lakshya_raikwal" target="_blank">
+            <Link href="https://www.linkedin.com/in/lakshya-raikwal-670218193/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
+                leftIcon={<Icon as={IoLogoLinkedin} />}
               >
-                @lakshya_raikwal
+                @Lakshya Raikwal
               </Button>
             </Link>
           </ListItem>
@@ -167,11 +167,11 @@ const Home = () => (
             My YouTube channel
           </GridItem>
           <GridItem
-            href="https://netflix-e1647.firebaseapp.com"
-            title="Netflix"
-            thumbnail={thumbNetflix}
+            href="https://raikwal-uses.vercel.app"
+            title="Tech I Use"
+            thumbnail={thumbTech}
           >
-            Replica of Netflix
+            Tech I Use
           </GridItem>
         </SimpleGrid>
 
