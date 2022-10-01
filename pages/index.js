@@ -25,7 +25,7 @@ import {
   // IoLogoDiscord
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/matrix.png'
-import thumbTech from '../public/images/links/tech.png' # add this image
+import thumbTech from '../public/images/links/tech.png'
 
 const Home = () => (
   <Layout>
