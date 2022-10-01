@@ -168,10 +168,10 @@ const Home = () => (
           </GridItem>
           <GridItem
             href="https://raikwal-uses.vercel.app"
-            title="Blog Site"
+            title="Tech I Use"
             thumbnail={thumbTech}
           >
-            Tech I Use
+            Blog Page
           </GridItem>
         </SimpleGrid>
 
