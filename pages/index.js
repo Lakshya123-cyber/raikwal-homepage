@@ -73,7 +73,7 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things including AI. When he isn&apos;t glued to a computer screen, he either spends time researching for a new project idea or talk with his girlfriend.
+          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things including AI. When he isn&apos;t glued to a computer screen, he either spends time researching for a new project idea or have a chit-chat with his mom.
           
           He is also an ambitious person who has a positive attitude and is full of determination to achieve whatever he puts his mind to. With extensive knowledge and 4 years of experience, he&apos;s been working on AI using Python with intermediate level of web development and beginner level of blockchain knowledge too!
         </Paragraph>
@@ -113,7 +113,7 @@ const Home = () => (
           I 🤍
         </Heading>
         <Paragraph>
-          Coding new projects, Gaming and Music, but my priority among these is my beloved girlfriend.
+          Coding new projects, Gaming and Music.
         </Paragraph>
       </Section>
 
@@ -171,7 +171,7 @@ const Home = () => (
             title="Tech I Use"
             thumbnail={thumbTech}
           >
-            Blog Page
+            Blog Page (Under development)
           </GridItem>
         </SimpleGrid>
 
