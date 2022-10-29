@@ -115,7 +115,7 @@ const Navbar = props => {
                   target="_blank"
                   href="https://raikwal-uses.vercel.app"
                 >
-                  Blog (🚧)
+                  Tech Blog (🚧)
                 </MenuItem>
               </MenuList>
             </Menu>
