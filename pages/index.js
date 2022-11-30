@@ -73,9 +73,9 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-          Lakshya Raikwal is a passionate developer who has keen interest in programming and developing new things including AI. When he isn&apos;t glued to a computer screen, he either spends time researching for a new project idea or have a chit-chat with his mom.
+          I am a passionate developer who has a keen interest in programming and developing new things, including AI. When I am not glued to the screen, I spend my time either researching a new project idea or gossiping with my mom. 
           
-          He is also an ambitious person who has a positive attitude and is full of determination to achieve whatever he puts his mind to. With extensive knowledge and 4 years of experience, he&apos;s been working on AI using Python with intermediate level of web development and beginner level of blockchain knowledge too!
+          I am also an ambitious person with a positive attitude and full of determination to achieve everything I set my mind to.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects">
