@@ -37,7 +37,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Singapore!
+        Hello, I&apos;m a full-stack developer based in Finland!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -46,7 +46,7 @@ const Home = () => (
             Lakshya Raikwal
           </Heading>
           <p>
-            High-School Student | Digital Craftzman | Full-stack Developer
+            University Student | Digital Craftzman | Full-stack Developer
           </p>
         </Box>
         <Box
