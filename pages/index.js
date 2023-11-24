@@ -91,19 +91,19 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2005</BioYear>
-          Born in Delhi, India.
+          <BioYear>2004</BioYear>
+          Born in Singapore
         </BioSection>
         <BioSection>
           <BioYear>2008</BioYear>
-          Did my primary schooling in India.
+          Did my primary schooling in Singapore and India.
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
           Flew to Singapore for Secondary education; got inspired to do programming and started my tech journey!
         </BioSection>
         <BioSection>
-          <BioYear>2021 to present</BioYear>
+          <BioYear>2020 to present</BioYear>
           An amateur in Python / Web Development / Blockchain and an aspiring learner in the field of Technology.
         </BioSection>
       </Section>
